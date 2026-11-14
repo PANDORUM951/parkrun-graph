@@ -1,0 +1,18 @@
+# Personal data / generated output
+runs.db
+runs.db-journal
+runs.json
+parkrun_times.png
+
+# Saved parkrun page (contains personal results) and its assets
+results _ parkrun UK.html
+results _ parkrun UK_files/
+
+# Early draft of the API, superseded by parkrun_v2.py
+parkrun.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

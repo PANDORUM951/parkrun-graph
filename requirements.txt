@@ -1,0 +1,7 @@
+flask
+requests
+beautifulsoup4
+matplotlib
+# only needed for scrape_parkrun_pandas.py
+pandas
+lxml
