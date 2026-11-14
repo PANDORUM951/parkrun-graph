@@ -45,4 +45,3 @@ Honestly, it's unnecessary. The scraper could write to the database directly and
 - The API uses hard-coded demo credentials (`admin` / `password`). That's fine for a local learning project, but don't expose it to the internet as is.
 - `runs.db`, the saved HTML and the generated PNG are in `.gitignore` because they contain personal results. `parkrun.py` is an early draft of the API, superseded by `parkrun_v2.py`.
 - SQLite is plenty for one person's results. For many users or concurrent writers, I'd move to PostgreSQL.
-# parkrun-graph
